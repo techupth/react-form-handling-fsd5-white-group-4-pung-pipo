@@ -13,10 +13,10 @@ function ProductForm() {
         event.preventDefault();
         alert(
           JSON.stringify({
-            name: { name },
-            price: { price },
-            image: { image },
-            description: { description },
+            name,
+            price,
+            image,
+            description,
           })
         );
       }}
