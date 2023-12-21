@@ -14,7 +14,7 @@ function ProductForm() {
         alert(
           JSON.stringify({
             name,
-            price,
+            price: Number(price),
             image,
             description,
           })
